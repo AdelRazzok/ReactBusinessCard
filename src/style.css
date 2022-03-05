@@ -54,10 +54,9 @@ body {background: #23252C; font-family: 'Inter', Arial, Helvetica, sans-serif;}
 	cursor: pointer;
 }
 
-/* ===== ABOUT ===== */
-
-
-/* ===== INTERESTS ===== */
-
+/* ===== ABOUT & INTERESTS ===== */
+.About, .Interests { margin: 25px 35px; }
+.about-title, .interests-title { font-size: 16px; }
+.about-desc, .interests-desc { font-size: 12px; }
 
 /* ===== FOOTER / SOCIALS ===== */

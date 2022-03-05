@@ -1,4 +1,3 @@
-import React from 'react'
 import infosPicture from '../img/infos-picture.png'
 
 export default function Infos() {
