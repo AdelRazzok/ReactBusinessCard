@@ -14,7 +14,7 @@ body {background: #23252C; font-family: 'Inter', Arial, Helvetica, sans-serif;}
 	max-width: 317px;
 	background-color: #f5f5f5;
 	border-radius: 10px;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 .App.dark {background-color: #1A1B21; color: #fff;}
 .App.dark .title {color: #f5f5f5;}
@@ -55,8 +55,8 @@ body {background: #23252C; font-family: 'Inter', Arial, Helvetica, sans-serif;}
 	background-color: white;
 	transition: .4s;
 }
-input:checked + .slider { background-color: #F47D27; }
-input:focus + .slider { box-shadow: 0 0 1px #F47D27; }
+input:checked + .slider { background-color: #1A1B21; }
+input:focus + .slider { box-shadow: 0 0 1px #1A1B21; }
 input:checked + .slider:before { transform: translateX(26px); }
 .slider.round { border-radius: 25px; }
 .slider.round:before { border-radius: 50%; }
@@ -119,6 +119,7 @@ input:checked + .slider:before { transform: translateX(26px); }
 	gap: 24px;
 	background-color: #D5D4D8;
 	border-radius: 0 0 10px 10px;
+	transition: all 0.4s ease-in-out;
 }
 .icon {
 	font-size: 25px;
