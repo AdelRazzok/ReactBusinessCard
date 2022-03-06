@@ -1,10 +1,14 @@
 export default function DarkBtn() {
-  return (
-	<div className='DarkBtn'>
-		<label className='switch'>
-			<input type='checkbox' />
-			<span className='slider round'></span>
-		</label>
-	</div>
-  )
+	function toggleDarkMode() {
+		document.querySelector('.App').classList.toggle('dark')
+	}
+
+	return (
+		<div className='DarkBtn'>
+			<label className='switch'>
+				<input type='checkbox' onChange={toggleDarkMode} />
+				<span className='slider round'></span>
+			</label>
+		</div>
+  	)
 }
